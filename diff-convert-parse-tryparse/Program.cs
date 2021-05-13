@@ -15,7 +15,7 @@ namespace diff_convert_parse_tryparse
             string str2 = null;
             string str3 = "9009.9090800";
             string str4 = "90909809099090909900900909090909";
-            int finalResult;
+            int finalResult=0;
 
             finalResult = int.Parse(str1); //success
             finalResult = int.Parse(str2); // ArgumentNullException
